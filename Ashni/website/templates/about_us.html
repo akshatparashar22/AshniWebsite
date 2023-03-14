@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	ABOUT US
+{% endblock title %}
+
+{% block body %}
+	
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/services-1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/services-5.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/services-8.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card text-bg-light mb-3">
+    <div class="row g-0">
+    <div class="col-md-12">
+      <div class="card-body">
+      <h3 class="card-title">About Us</h3>
+      <p class="card-text">ASHNI Foundation is a PAN India not for profit organization registered on 5th August 2021 under Society’s Registration vide Society’s Registration No: Maha/838/2021/Pune. ASHNI is working towards building consciousness and awareness about Gender Sensitivity, Prevention of Sexual Harassment at work, Women’s and Children’s rights towards Education and Health. Foundation also works in building network of resources for trainers / facilitators, counsellors and external members who contribute to make workplaces gender-sensitive and safe places for professional development. ASHNI believes in collaborative efforts and has a resource pool of people working in various development domains. One of the objectives of ASHNI is to support the other charity organisations. 
+      <br> Currently ASHNI has initiated 3 projects:
+      <ul>
+
+        <li><b>Sath Sath – Building Resources and Supporting other organisations</b></li>
+        
+        <li><b>PoSH – Prevention of Sexual Harassment </b></li>
+        
+        <li><b>Jeevan-Shala – Life Skills Education</b></li>
+        
+        </ul>
+</p>
+      <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+      </div>
+    </div>
+    </div>
+  </div>
+
+{% endblock body %}
